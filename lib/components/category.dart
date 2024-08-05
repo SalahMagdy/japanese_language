@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class   Category extends StatelessWidget {
-  Category({super.key, this.text,this.color, this.onTap});
-  Color? color ;
-  String? text;
-  Function()? onTap ;
+class Category extends StatelessWidget {
+  const Category({super.key, this.text,this.color, this.onTap});
+  final Color? color ;
+  final String? text;
+  final Function()? onTap ;
 
   @override
   Widget build(BuildContext context) {

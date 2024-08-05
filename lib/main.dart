@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tharwat_course/screens/homeScreen.dart';
+import 'package:tharwat_course/screens/home_screen.dart';
 
 void main (){
   runApp(const flutterCourse());

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:tharwat_course/components/category.dart';
-import 'package:tharwat_course/screens/Colors_Screen.dart';
-import 'package:tharwat_course/screens/FamilyMember_Screen.dart';
-import 'package:tharwat_course/screens/Numbers_Screen.dart';
-import 'package:tharwat_course/screens/Phrases_Screen.dart';
+import 'package:tharwat_course/screens/colors_screen.dart';
+import 'package:tharwat_course/screens/family_member_screen.dart';
+import 'package:tharwat_course/screens/numbers_screen.dart';
+import 'package:tharwat_course/screens/phrases_screen.dart';
 
 class Home_Screen extends StatelessWidget {
   const Home_Screen({super.key});
@@ -26,7 +26,7 @@ class Home_Screen extends StatelessWidget {
             text: 'Numbers',
             onTap: (){
             Navigator.push(context,
-                MaterialPageRoute(builder: (context)=>const numbersScreen()));
+                MaterialPageRoute(builder: (context)=>const NumbersScreen()));
             },
           ),
           Category(color: const Color(0xff5D8B3E),
@@ -36,7 +36,7 @@ class Home_Screen extends StatelessWidget {
                 MaterialPageRoute(builder: (context)=> const FamilymemberScreen()));
 
           },),
-          Category(color: Color(0xff854CAE),
+          Category(color: const Color(0xff854CAE),
             text: 'Colors',
           onTap: (){
             Navigator.push(context,

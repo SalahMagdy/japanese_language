@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tharwat_course/components/items.dart';
-import 'package:tharwat_course/models/Models.dart';
+import 'package:tharwat_course/models/models.dart';
 
 
 

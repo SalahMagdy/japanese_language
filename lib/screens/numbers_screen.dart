@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:tharwat_course/components/items.dart';
-import 'package:tharwat_course/models/Models.dart';
+import 'package:tharwat_course/models/models.dart';
 
 
 
 
-class numbersScreen extends StatelessWidget {
- const  numbersScreen({super.key,});
+class NumbersScreen extends StatelessWidget {
+ const  NumbersScreen({super.key,});
   final List<NumAndPhrasModel> numbers = const [
     NumAndPhrasModel(sound: 'sounds/numbers/number_one_sound.mp3',
         image: 'assets/images/numbers/number_one.png', jpName: 'Ichi', enName: 'One'),
@@ -46,7 +46,7 @@ class numbersScreen extends StatelessWidget {
         itemBuilder:(context , num)
         {
           return Items(
-            color: Color(0xffFF9F3B),
+            color:const Color(0xffFF9F3B),
 
             number:numbers[num],
           );
